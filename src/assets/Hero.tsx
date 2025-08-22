@@ -47,7 +47,7 @@ export default function Hero(): React.JSX.Element {
 
         <div className="flex gap-4 mb-6">
           <a 
-            href="/Resume.pdf" 
+            href="/Resume.pdf" target="_blank" rel="noopener noreferrer" 
             className="bg-[#000046] hover:bg-blue-700 text-white px-6 py-2 rounded-full font-bold flex items-center justify-center no-underline" style={{ textDecoration: "none" }}>
             RESUME
           </a>
