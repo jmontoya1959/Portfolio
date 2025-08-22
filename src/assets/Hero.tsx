@@ -13,7 +13,7 @@ export default function Hero(): React.JSX.Element {
       {/* Profile Card */}
       <div className="bg-[#2cc377] rounded-2xl shadow-lg text-center p-11 w-[300px]">
         <img
-          src="public\Images\Me.jpg"
+          src="/Images/Me.jpg"
           alt="Jacob Montoya"
           className="rounded-full w-48 h-48 mx-auto object-cover mb-4"
         />

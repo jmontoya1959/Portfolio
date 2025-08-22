@@ -25,7 +25,7 @@ const projects: Project[] = [
     title: "Product Page Design",
     description:
       "On this product page, I focused on highlighting the featured item prominently, using color and scale to draw attention. I emphasized the member discount with a distinct accent color to make the savings clear, and I showcased related games using the store's brand palette to create a cohesive, eye-catching experience.",
-    image: "public/Images/product.jpg",
+    image: "/Images/product.jpg",
   },
 ];
 
