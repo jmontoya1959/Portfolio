@@ -1,7 +1,7 @@
 import React from "react";
 
 const skills: { name: string; icon: string }[] = [
-  { name: "GitHub", icon: "/icons/Github.svg"},
+  { name: "GitHub", icon: "/icons/GitHub.svg"},
   { name: "React", icon: "/icons/react.svg" },
   { name: "Figma", icon: "/icons/figma.svg" },
   { name: "Angular", icon: "/icons/angular.svg" },
