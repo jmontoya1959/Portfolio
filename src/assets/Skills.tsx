@@ -7,7 +7,7 @@ const skills: { name: string; icon: string }[] = [
   { name: "Angular", icon: "../icons/angular.svg" },
   { name: "Node.js", icon: "../icons/nodejs.svg" },
   { name: "VS Code", icon: "../icons/vscode.svg" },
-  { name: "CSS", icon: "..//icons/css3.svg" },
+  { name: "CSS", icon: "../icons/css3.svg" },
   { name: "Tailwind", icon: "../icons/tailwind.svg" },
   { name: "TypeScript", icon: "../icons/typescriptts.svg" },
   { name: "HTML5", icon: "../icons/html5.svg" },
@@ -17,7 +17,7 @@ const skills: { name: string; icon: string }[] = [
 
 export default function Skills(): React.JSX.Element {
   return (
-    <section className="bg-gradient-to-b from-[#5dd886] to-[#fff9ed] py-20 rounded-xl max-w-8xl mx-auto" >
+    <section className="bg-gradient-to-b from-[#5dd886] to-[#fff9ed] py-10 rounded-xl max-w-8xl mx-auto" >
       <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-8 place-items-center">
         {skills.map((skill) => (
           <div
