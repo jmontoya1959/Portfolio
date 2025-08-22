@@ -2,17 +2,17 @@ import React from "react";
 
 const skills: { name: string; icon: string }[] = [
   { name: "GitHub", icon: "/icons/github.svg"},
-  { name: "React", icon: "../icons/react.svg" },
-  { name: "Figma", icon: "../icons/figma.svg" },
-  { name: "Angular", icon: "../icons/angular.svg" },
-  { name: "Node.js", icon: "../icons/nodejs.svg" },
-  { name: "VS Code", icon: "../icons/vscode.svg" },
-  { name: "CSS", icon: "../icons/css3.svg" },
-  { name: "Tailwind", icon: "../icons/tailwind.svg" },
-  { name: "TypeScript", icon: "../icons/typescriptts.svg" },
-  { name: "HTML5", icon: "../icons/html5.svg" },
-  { name: "Next.js", icon: "../icons/nextjs.svg" },
-  { name: "JavaScript", icon: "../icons/javascript.svg" },
+  { name: "React", icon: "/icons/react.svg" },
+  { name: "Figma", icon: "/icons/figma.svg" },
+  { name: "Angular", icon: "/icons/angular.svg" },
+  { name: "Node.js", icon: "/icons/nodejs.svg" },
+  { name: "VS Code", icon: "/icons/vscode.svg" },
+  { name: "CSS", icon: "/icons/css3.svg" },
+  { name: "Tailwind", icon: "/icons/tailwind.svg" },
+  { name: "TypeScript", icon: "/icons/typescript.svg" },
+  { name: "HTML5", icon: "/icons/html5.svg" },
+  { name: "Next.js", icon: "/icons/nextjs.svg" },
+  { name: "JavaScript", icon: "/icons/javascript.svg" },
 ];
 
 export default function Skills(): React.JSX.Element {
